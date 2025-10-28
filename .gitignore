@@ -1,0 +1,15 @@
+# ROS2 build and log files
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode or editor configs
+.vscode/
+.idea/
+
+# Other system files
+.DS_Store
