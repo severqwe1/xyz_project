@@ -9,10 +9,10 @@ xyz_project
 
 
 realsense 실행
-'''ros2 launch realsense2_camera rs_align_depth_launch.py depth_module.depth_profile:=640x480x30 rgb_camera.color_profile:=640x480x30 initial_reset:=true align_depth.enable:=true enable_rgbd:=true pointcloud.enable:=true'''
+````ros2 launch realsense2_camera rs_align_depth_launch.py depth_module.depth_profile:=640x480x30 rgb_camera.color_profile:=640x480x30 initial_reset:=true align_depth.enable:=true enable_rgbd:=true pointcloud.enable:=true```
 
 로봇팔 연결:
-''ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=real host:=110.120.1.41 port:=12345 model:=e0509''
+``ros2 launch dsr_bringup2 dsr_bringup2_rviz.launch.py mode:=real host:=110.120.1.41 port:=12345 model:=e0509``
 
 예제 실행:
-ros2 run dsr_example test_realsense 
+``ros2 run dsr_example test_realsense ``
